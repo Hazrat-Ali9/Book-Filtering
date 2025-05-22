@@ -1,3 +1,4 @@
+// Navbar
 const Navbar = () => {
   return (
     <nav className="py-6 ">
