@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import BookGridItem from "./bookGridItem";
 import { bookGridItems } from "../../constants/data";
 import { useSearchParams } from "react-router-dom";
-
+// Books Grid
 const BookGrid = () => {
   const [books, setBooks] = useState(bookGridItems);
   const [searchParams] = useSearchParams();
