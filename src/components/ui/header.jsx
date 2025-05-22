@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import SearchInput from "./searchInput";
 import Select from "./select";
-
+// Header file
 const Header = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const sort = searchParams.get("sort");
