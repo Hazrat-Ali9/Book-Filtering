@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+// Book Grid Item
 const BookGridItem = ({ setBooks, book }) => {
   const { id, title, author, price, rating, image, isFavourite } = book;
 
